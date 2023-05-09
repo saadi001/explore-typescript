@@ -10,7 +10,7 @@ interface Person {
    
    function fullName<T extends Person>(person: T): string {
    
-     return `${person.firstName} ${person.lastName}`;
+     return `${person.firstName}  ${person.lastName}`;
    
    }
 
